@@ -19,3 +19,10 @@ gnuplot> splot "output.dat" w dot
 * The scripts are tailored to a Unix-style environment. Use Linux, Mac OS X, or Cygwin.
 * On OS X, gnuplot's x11 output outperforms the default aqua setting by an order of magnitude.
 * The example limits output to 20k dots. A plot tends to overcrowd beyond the 50k mark, and gnuplot/x11 output gets sluggish beyond 100k.
+
+## References
+
+This code was used to quickly spot a substantial weakness in a proprietary encryption algorithm:
+
+* [Enclosed, but not encrypted](http://www.h-online.com/security/features/Enclosed-but-not-encrypted-746199.html)
+
